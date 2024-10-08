@@ -1,0 +1,28 @@
+html {
+    font-size: 10px;
+    font-family: 'Roboto';
+}
+
+.header {
+    position: relative;
+    font-size: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    text-align: center;
+    z-index: 20;
+    background-color: teal;
+}
+
+.navbar {
+    font-size: 2rem;
+    background-color: rgb(1, 88, 88);
+    padding: 1rem 2.5rem;
+    transition: all 300ms ease-in-out;
+    transform: translateY(-100%);
+    z-index: -10;
+    color: whitesmoke;
+}
+
+.header:hover+.navbar {
+    transform: translateY(0%);
+}
