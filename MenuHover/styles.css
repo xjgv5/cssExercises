@@ -26,3 +26,5 @@ html {
 .header:hover+.navbar {
     transform: translateY(0%);
 }
+
+/*. suspend */
